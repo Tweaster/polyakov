@@ -10,4 +10,4 @@ Just copy the `Sierpinski` folder into your `templates` folder, then select it f
 
 ##Screenshots
 
-![Screenshot](http://projectify.me/templates/polyakov/screenshot.jpg)
+![Screenshot](http://projectify.me/templates/sierpinski/screenshot.jpg)
