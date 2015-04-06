@@ -9,5 +9,5 @@ Hi my name is [Fabrice Rasoamiaramanana](https://ca.linkedin.com/in/frasoamiaram
 Just copy the `puddle` folder into your `templates` folder, then select it from the list of installed templates in your dropplets menu.
 
 ##Screenshots
-The top one is the home page, and the bottom one is a post page.
+
 ![Screenshot](http://projectify.me/templates/polyakov/screenshot.jpg)
