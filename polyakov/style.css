@@ -137,12 +137,13 @@ code, pre {
 }
 /* Header
 *********************************************************************************************/
-
-/* Header
-*********************************************************************************************/
  header {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.45);
     background-color: #626262;
+    color: rgb(162, 162, 162);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
     background-image: url("charcoal.jpg");
     width: 100%;
     position: fixed;
@@ -152,6 +153,13 @@ code, pre {
     -webkit-transition-duration: 0.5s;
     cursor: pointer;
 }
+
+header.home .intro > h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 5%;
+}
+
 header.single {
     height: 60px;
     bottom: -50px;
@@ -171,8 +179,7 @@ header .intro {
     float: left;
     margin: 70px 0 70px 10%;
 }
-header .intro p {
-    color: #b6b6b6;
+header .intro {
     margin-bottom: 25px;
 }
 header .intro a {
