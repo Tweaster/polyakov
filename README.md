@@ -10,4 +10,4 @@ Just copy the `puddle` folder into your `templates` folder, then select it from 
 
 ##Screenshots
 The top one is the home page, and the bottom one is a post page.
-![Screenshot](https://raw.github.com/jacksondc/puddle/master/puddle/screenshot.jpg)
+![Screenshot](http://projectify.me/templates/polyakov/screenshot.jpg)
