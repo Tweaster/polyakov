@@ -93,9 +93,14 @@
             <div class="ribbon">
                 <div class="post">
                     <p style="font-family: 'Fredericka the Great', cursive; font-size:300%;"><?php echo($intro_title); ?></p>
-                                
-                    <p><?php echo($intro_text); ?></p>
-                    <img src="<?php echo($template_dir_url); ?>logo.png">
+                    <div itemscope itemtype="http://schema.org/Organization"> 
+                    <p itemprop="description"><?php echo($intro_text); ?></p>
+
+                    <span itemprop="logo">
+                    <img src="<?php echo($template_dir_url); ?>logo.png" alt="<?php echo($page_title); ?>">
+                    </span>
+
+                    </div>
                     <div class="shadow"></div>
                 </div>
             </div>
@@ -157,6 +162,6 @@
                     </script>
 
 
-        </main>
+        </div>
     </body>
 </html>

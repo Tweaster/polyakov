@@ -133,13 +133,13 @@ code, pre {
     padding: 6px 8px 6px 8px;
 }
 .menubar a:hover {
-    background-color: #262626;
+    background-color: rgb(195, 203, 43);
 }
 /* Header
 *********************************************************************************************/
  header {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.45);
-    background-color: #626262;
+    background-color: rgb(55, 63, 68);
     color: rgb(162, 162, 162);
     font-size: 14px;
     line-height: 20px;
@@ -198,7 +198,7 @@ header.home:hover {
 header .profile {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.45);
     border-radius: 50%;
-    background-color: #626262;
+    background-color: rgb(55, 63, 68);
     background-image: url("charcoal.jpg");
     width: 120px;
     height: 120px;
@@ -212,7 +212,7 @@ header.single .profile {
     bottom: 0;
 }
 header .profile-mask {
-    background-color: #626262;
+    background-color: rgb(55, 63, 68);
     background-image: url("charcoal.jpg");
     width: 200px;
     height: 75px;
@@ -296,7 +296,7 @@ article.intro .look {
     z-index: 50;
     width:100%;
     height:250px;
-    margin-bottom:50px;
+    margin-bottom:10px;
     margin-top: 50px;
 }
 article.full .look {
@@ -329,7 +329,7 @@ article.intro .readmore {
     position:relative;
     width: 100%;
     z-index:60;
-    height:550px;
+    height:510px;
     padding-bottom: 50px;
     padding-top: 50px;
     background-image: url(./readmore.png);
@@ -365,7 +365,7 @@ article .post {
     position: relative;
 }
 article .post-link {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.15);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -375,7 +375,9 @@ article .post-link {
 }
 article .post-link:hover {
     background-color: rgba(255, 255, 255, 0);
+    
 }
+
 article .profile img {
     width: 42px;
     border-radius: 50%;
@@ -884,6 +886,10 @@ ul.horizontal li {
     max-width: 90%;
 }
 
+
+.row .three-quarters  > p{
+    text-align: justify;
+}
 
 .row .three-quarters > h2, h3, h4, h5, h6 {
     font-weight: 700;

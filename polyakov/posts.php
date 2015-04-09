@@ -10,12 +10,12 @@
     </div>
             
     <div class="read">
-        <div class="post">
-            <h2><?php echo($post_title); ?></h2>
+        <div class="post" itemscope itemType="http://schema.org/BlogPosting">
+            <h2 itemprop="headline"><?php echo($post_title); ?></h2>
             
-            <span class="meta"><?php echo($published_date); ?> by  <?php echo($post_author); ?></span>
+            <div class="meta"><?php echo($published_date); ?> by  <div itemprop="author"><div itemscope itemtype="http://schema.org/Person"><span itemprop="name"><?php echo($post_author); ?></span></div></div></div>
             
-            <p><?php echo($post_intro); ?></p>
+            <div itemprop="description"><?php echo($post_intro); ?></div>
         </div>
     </div>
 
