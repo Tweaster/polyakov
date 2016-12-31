@@ -11,4 +11,4 @@ Just copy the `Polyakov` folder into your `templates` folder, then select it fro
 
 ##Screenshots
 
-![Screenshot](http://projectify.me/templates/polyakov/screenshot.jpg)
+![Screenshot](https://github.com/Tweaster/polyakov/blob/master/polyakov/screenshot.jpg?raw=true)
